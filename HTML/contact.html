@@ -4,35 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <link rel="stylesheet" href="./assets/styles/contact.css">
 </head>
 <body>
     <div>
-        <ul>
-            <li> <a href="./index.html"> Home </a></li>
-            <li> <a href="./contact.html"> Contato </a></li>
-        </ul>
-    </div>
-    <div>
-    <h1>Fale comigo! </h1>
+        <nav>
+            <ul>
+                <li> <a href="./index.html"><strong> ABOUT ME</strong></a></li>
+                <li> <a href="./contact.html"><strong>CONTACT</strong></a></li>
+            </ul>
+        </nav>
     
-    <form><!-- Campo para colocar o nome -->
-        <label for="nome">Digite seu nome:</label>
-        <input type="text" name="nome" id="nome">
-        <br>
-    <!-- Campo para colocar o e-mail -->
-        <label for="email">Digite seu e-mail: </label>
-        <input type="email" name="email" id="email">
-        <br>
-    <!-- Campo para mensagem -->
-        <label for="mensagem"> Digite sua mensagem:  </label><br>
-        <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
-        <br>
-    <!-- Caixa de seleção (checkbox) -->
-        <input type="submit" value="Enviar">
-    </form>
-</div>
-
-<h3>Obrigada pelo contato! Te retorno em breve! <img src="./assets/img/coracao.png" alt="" width="30px" height="30px"></h3>
+        <div>
+        <h1>Fale comigo! </h1>
+        
+        <div class="form">
+            <form><!-- Campo para colocar o nome -->
+                <label class="input-name" for="nome">Digite seu nome:</label>
+                <input type="text" name="nome" id="nome">
+                <br>
+            <!-- Campo para colocar o e-mail -->
+                <label for="email">Digite seu e-mail: </label>
+                <input type="email" name="email" id="email">
+                <br>
+            <!-- Campo para mensagem -->
+                <label for="mensagem"> Digite sua mensagem:  </label><br>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+                <br>
+            <!-- Caixa de seleção (checkbox) -->
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+        
+    </div>
+    
+    <h3>Obrigada pelo contato! Te retorno em breve! <img src="./assets/img/coracao.png" alt="" width="30px" height="30px"></h3>
+    </div>
+    
 
 
 </body>
